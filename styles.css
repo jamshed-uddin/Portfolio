@@ -21,7 +21,7 @@
 }
 
 .header{
-    background-image: url(/portfolio-resources/images/header_bg.png);
+    background-image: url(../Portfolio/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 790px;
@@ -87,7 +87,7 @@ margin-bottom: 30px;
     background-color: #FD6E0A;
     border: none;
     border-radius: 6px;
-    width: 166px;
+    width: 200px;
     height: 60px;
     padding: 18px 17px;
     font-size: 20px;
@@ -156,5 +156,54 @@ color:#757575;
     font-weight: 600;
     font-size: 18px;
     line-height: 10px;
+    margin-top: 8px;
 }
 
+/* services */
+
+.s-title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.service-des{
+    text-align: center;
+    padding:30px 345px 50px 345px;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 230px 30px 230px;
+}
+
+.service-container .serv-detail{
+    /* box-shadow: 1px 1px 13px 2px #00000063; */
+    border: 1px solid #757575a9;
+    margin: 0 24px ;
+    border-radius: 5px;
+    padding: 0 30px;
+    transition: 0.4s;
+}
+
+.service-container .serv-detail:hover{
+    box-shadow: 1px 1px 13px 2px #00000063;  
+}
+
+.service-container .serv-detail .icon{
+    margin: 30px 0;
+}
+
+.serv-detail .skill-detail{
+    color: #757575;
+    text-align: justify;
+    font-weight: 400;
+font-size: 13px;
+margin: 20px 0px 30px 0;
+}
