@@ -28,11 +28,13 @@
 }
 /* header and navigation styles */
 nav{
+   
     display: flex;
     justify-content: space-between;
     /* margin: 50px 200px; */
-    margin: 50px 150px 50px 200px;
+    margin: 20px 150px 20px 200px;
 }
+
 
 nav ul{
     display: flex;
@@ -54,6 +56,7 @@ nav li{
 .banner{
     /* margin: 0 200px; */
     margin:0 150px 0 200px;
+    padding-top: 103px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -297,8 +300,9 @@ margin-bottom: 30px;
 }
 
 .social-container{
-   margin: 100px 117px 100px 230px;
+   margin: 100px 90px 100px 230px;
     text-align:left;
+    width: 600px;
  
 }
 .social-title{
@@ -318,5 +322,10 @@ margin-bottom: 30px;
 .social-icon > img{
 
   padding: 0 8px 8px 5px;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 40px;
 }
 
