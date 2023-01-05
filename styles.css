@@ -24,6 +24,7 @@
     background-image: url(/portfolio-resources/images/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
+    height: 790px;
 }
 /* header and navigation styles */
 nav{
@@ -107,19 +108,53 @@ margin-bottom: 30px;
     cursor: pointer;
 }
 
+/* about me section */
+
 .about{
     background-color: #FFF8F3;
     border-radius: 10px;
     margin: 100px 200px 90px 200px;
     padding: 131px 157px;
+    text-align: center;
   
 }
 
 .a-title{
-background-color: aqua;
 text-align: center;
 margin-top: 0;
 margin-bottom: 30px;
 font-size: 35px;
 line-height:48px;
 }
+
+.a-text{
+    text-align: center;
+    color: #757575;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400px;
+    margin-bottom: 30px;
+}
+
+.a-info{
+    display: flex;
+    justify-content: space-around;
+    text-align:center;
+color:#757575;
+
+}
+
+.para{
+    margin-left:8px;
+     
+}
+
+.info-des{
+    display: block;
+    color: #000000;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 10px;
+}
+
