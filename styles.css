@@ -108,6 +108,7 @@ margin-bottom: 30px;
     cursor: pointer;
 }
 
+
 /* about me section */
 
 .about{
@@ -184,8 +185,8 @@ color:#757575;
 }
 
 .service-container .serv-detail{
-    /* box-shadow: 1px 1px 13px 2px #00000063; */
-    border: 1px solid #757575a9;
+    box-shadow: 0px 0px 15px 4px #0000000b;
+    border: 1px solid #75757535;
     margin: 0 24px ;
     border-radius: 5px;
     padding: 0 30px;
@@ -269,6 +270,53 @@ margin-bottom: 30px;
     border-bottom: 1px solid #D1D1D1;
 }
 
+ .for-btn .btn-bottom{
+    color: #ffffff;
+    background-color: #FD6E0A;
+    border: none;
+    border-radius: 6px;
+    width: 200px;
+    height: 60px;
+    padding: 18px 17px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.for-btn{
+   text-align: center;
+   padding-bottom: 100px;
+}
 
 
+/* contact section */
+
+.contact{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.social-container{
+   margin: 100px 117px 100px 230px;
+    text-align:left;
+ 
+}
+.social-title{
+    font-weight: 700;
+font-size: 25px;
+line-height: 30px;
+margin-bottom: 30px;
+}
+
+.social-des{
+    color: #757575;
+    font-weight: 400px;
+    padding-right: 70px;
+    margin-bottom: 30px;
+}
+
+.social-icon > img{
+
+  padding: 0 8px 8px 5px;
+}
 
