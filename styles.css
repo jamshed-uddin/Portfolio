@@ -21,7 +21,8 @@
 }
 
 .header{
-    background-image: url(../Portfolio/images/header_bg.png);
+    background-image: url(images/header_bg.png);
+    /* background-size: 633px 318px ; */
     background-repeat: no-repeat;
     background-position: bottom right;
     height: 790px;
@@ -55,13 +56,17 @@ nav li{
 
 .banner{
     /* margin: 0 200px; */
-    margin:0 150px 0 200px;
+    height:742px ;
+    margin:0 50px 0 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
     
 }
 
+.banner-detail{
+    margin-right: 170px;
+}
 
 .banner-sub{
    
@@ -80,6 +85,7 @@ line-height: 115px;
 color: #757575;
 font-weight: 400;
 margin-top: 10px;
+
 margin-bottom: 30px;
 }
  
