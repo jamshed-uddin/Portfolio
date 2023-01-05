@@ -207,3 +207,68 @@ color:#757575;
 font-size: 13px;
 margin: 20px 0px 30px 0;
 }
+
+/* education and title */
+
+.eduex-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: 130px;
+    margin-bottom: 113px;
+}
+
+.total-container{
+    display: flex;
+    margin: 0 230px;
+    justify-content: space-between;
+}
+
+.edu-container{
+    padding-right: 8px;
+}
+
+.mini-con-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 40px;
+    margin-bottom: 8px;
+    
+}
+
+.inner-con{
+    margin: 30px 0;
+}
+
+.inner-con h4{
+    color: #474747;
+    font-weight: 550;
+font-size: 20px;
+line-height: 34px;
+}
+
+.inner-con p{
+    color: #757575;
+    font-weight: 520;
+font-size: 15px;
+line-height: 20px;
+}
+
+.total-container .desc{
+    font-weight: 350;
+font-size: 12px;
+line-height: 20px;
+margin-top: 9px;
+margin-bottom: 30px;
+}
+
+#under{
+    border-bottom: 1px solid #D1D1D1;
+}
+
+
+
+
